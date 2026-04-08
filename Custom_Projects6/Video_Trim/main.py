@@ -101,7 +101,7 @@ async def trim_video(request: TrimRequest):
         
         os.remove(input_path)
         
-        video_url = f"https://just-determination-production-fea7.up.railway.app/video/{final_filename}"
+        video_url = f"https://workflows-production-0c3f.up.railway.app/video/{final_filename}"
         print(f"Video available at: {video_url}")
         
         return {
